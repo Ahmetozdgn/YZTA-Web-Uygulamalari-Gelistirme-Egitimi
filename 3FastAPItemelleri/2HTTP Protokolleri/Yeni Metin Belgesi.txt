@@ -1,0 +1,39 @@
+Bunlar HTTP metodlarıdır ve CRUD mantığına karşılık gelir:
+
+🟢 POST → Create (Oluştur)
+
+Sunucuya yeni veri gönderir.
+
+Yeni kayıt oluşturur.
+
+Örn: Yeni kullanıcı eklemek.
+
+🔵 GET → Read (Oku)
+
+Sunucudan veri çeker.
+
+Veri değişmez, sadece görüntülenir.
+
+Örn: Kullanıcı listesini almak.
+
+🟡 PUT → Update (Güncelle)
+
+Var olan veriyi tamamen günceller.
+
+Örn: Kullanıcının tüm bilgilerini değiştirmek.
+
+🔴 DELETE → Delete (Sil)
+
+Var olan veriyi siler.
+
+Örn: Kullanıcıyı sistemden kaldırmak.
+
+Tek Cümle Özet
+
+POST → Ekle
+
+GET → Getir
+
+PUT → Güncelle
+
+DELETE → Sil

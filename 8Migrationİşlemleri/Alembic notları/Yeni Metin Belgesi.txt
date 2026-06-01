@@ -1,0 +1,12 @@
+Alembic Migration Notları
+
+Paket Yükleme:
+pip install alembic
+
+Değişikliği Algılama ve Dosya Oluşturma:
+alembic revision --autogenerate -m "phone number added"
+(Modellerdeki farkı bulur ve versions klasörüne yazar.)
+
+Veri Tabanına Uygulama:
+alembic upgrade 6b63b47be1f6
+(Veya en güncel sürüm için: alembic upgrade head)
