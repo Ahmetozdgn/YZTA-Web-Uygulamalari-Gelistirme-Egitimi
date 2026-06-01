@@ -2,12 +2,12 @@
 
 Yapay Zeka ve Teknoloji Akademisi (YZTA) bünyesinde Atıl Samancıoğlu tarafından verilen Web Uygulamaları Geliştirme başlıklı eğitimin uygulamalı kod çalışmalarıdır.
 
-🎯 Proje Hakkında
+🎯 **Proje Hakkında**
 Bu repo, eğitim sürecinde anlatılan konuların ve mimari yapıların canlı olarak yazılan kodlar üzerinden bire bir takip edilerek yeniden uygulanmasından oluşmaktadır. Amaç; asenkron backend mimarisini, veritabanı ilişkilerini ve modern API standartlarını pratik yaparak pekiştirmektir.
 
 ⚠️ **Not:** Bu repoda yalnızca uygulama kodları, şemalar ve konfigürasyon dosyaları bulunmaktadır. Eğitimin sözel/teorik kısmı dahil edilmemiştir.
 
-🗂️ Klasör Yapısı
+🗂️ **Klasör Yapısı**
 
 WEB_UYGULAMALARI/
 │
@@ -56,7 +56,7 @@ WEB_UYGULAMALARI/
 └── 11Docker/                       # Konteynerizasyon İşlemleri
     └── ToDoGeminiApp-main/
 
-🔬 Modül Detayları
+🔬 **Modül Detayları**
 
 * **FastAPI & Pydantic:** Veri doğrulama, tip güvenliği ve otomatik validasyon süreçleri.
 * **Asenkron Mimari:** `async/await` ile bloklanmayan I/O operasyonları ve yüksek performanslı API tasarımı.
@@ -65,15 +65,16 @@ WEB_UYGULAMALARI/
 * **Frontend & AI:** Jinja2 template motoru ile arayüz geliştirme ve Google Gemini API entegrasyonu.
 * **DevOps:** Uygulamanın Docker mimarisine taşınması ve ortam bağımsız çalıştırılması.
 
-🛠️ Kullanılan Teknolojiler
+🛠️ **Kullanılan Teknolojiler**
 * **Backend:** FastAPI, Pydantic, Python (Async)
 * **Veritabanı:** SQLite, SQLAlchemy, Alembic
 * **Güvenlik:** JWT, Bcrypt, Passlib
 * **Frontend:** Jinja2, HTML5, Bootstrap
 * **DevOps & AI:** Docker, Docker Compose, Google Gemini API
 
-🚀 Kurulum
+🚀 **Kurulum**
 
+```bash
 # Sanal ortam oluşturun ve aktif edin
 python -m venv venv
 source venv/Scripts/activate  # Windows için
