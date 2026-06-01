@@ -7,52 +7,42 @@ Bu repo, eğitim sürecinde anlatılan konuların ve mimari yapıların canlı o
 
 ⚠️ **Not:** Bu repoda yalnızca uygulama kodları, şemalar ve konfigürasyon dosyaları bulunmaktadır. Eğitimin sözel/teorik kısmı dahil edilmemiştir.
 
-🗂️ **Klasör Yapısı**
+### 🗂️ Klasör Yapısı
 
+```text
 WEB_UYGULAMALARI/
-│
 ├── 1Pydantic/                      # Pydantic ile Veri Modelleme ve Validasyon
 │   ├── main1.py
 │   └── main2pydantic.py
-│
 ├── 2AsyncExplained/                # Python'da Asenkron Programlama Temelleri
 │   ├── main.py
 │   └── main2.py
-│
 ├── 3FastAPItemelleri/              # HTTP Protokolleri ve API Temelleri
 │   ├── 1FastCrud/
 │   ├── 5PathParametreleri/
 │   ├── 7QueryileFiltreleme/
 │   └── 10UpdateveDelete/
-│
-├── 4FastAPIOrtaSeviye/            # Status Kodları ve Model Yönetimi
+├── 4FastAPIOrtaSeviye/             # Status Kodları ve Model Yönetimi
 │   ├── 1StatusKodlarɪ/
 │   ├── 2ModelveMockDB/
 │   └── 6Pydanticİstekler/
-│
 ├── 5Veritabanɪİşlemleri/           # SQLAlchemy ORM Entegrasyonu
 │   ├── 1Select İşlemleri/
 │   └── 4TodoGemini/
-│
 ├── 6Dependency Injection/          # FastAPI Depends Mekanizması
 │   ├── 1DependencyInjectionpython/
 │   └── 6TodoGeminiUpdateveDeleteİşlemleri/
-│
 ├── 7Yetkinlendirme İşlemleri/       # OAuth2, JWT ve Güvenlik
 │   ├── 1TodoGeminiRouterMantɪğɪ/
 │   ├── 5ParolaveŞifreİlişkisi/
 │   └── 7JWT_Encoding_Decoding/
-│
 ├── 8Migrationİşlemleri/            # Alembic ile Veritabanı Versiyonlama
 │   └── 1AlembicNedir_Migration İşlemi/
-│
 ├── 9FrontEnd/                      # Jinja2 Templates ve Statik Dosyalar
 │   ├── static/
 │   └── templates/
-│
 ├── 10Gemini/                       # Yapay Zeka (LLM) Entegrasyonu
 │   └── ToDoWithGemini/
-│
 └── 11Docker/                       # Konteynerizasyon İşlemleri
     └── ToDoGeminiApp-main/
 
